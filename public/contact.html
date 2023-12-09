@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mathivanan - Data Engineer</title>
+    <title>Mathivanan - Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -34,12 +34,12 @@
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
 			<h1 id="colorlib-logo"><a href="index.html"><span class="img" style="background-image: url(images/author.jpg);"></span>Mathivanan Sekar</a></h1>
-			<nav id="colorlib-main-menu" role="navigation">
+      <nav id="colorlib-main-menu" role="navigation">
 				<ul>
-					<li class="colorlib-active"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About Me</a></li>
 					<!-- <li><a href="blog.html">Blog</a></li> -->
-					<li><a href="contact.html">Contact</a></li>
+					<li class="colorlib-active"><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -56,46 +56,66 @@
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
-			<section class="ftco-section-no-padding bg-light">
-				<div class="hero-wrap">
-					<div class="overlay"></div>
-					<div class="d-flex align-items-center js-fullheight">
-						<div class="author-image text img d-flex">
-							<section class="home-slider js-fullheight owl-carousel">
-					      <div class="slider-item js-fullheight" style="background-image: url(images/author.jpg);">
-					      </div>
-
-					      <div class="slider-item js-fullheight" style="background-image:url(images/author-2.jpg);">
-					      </div>
-					    </section>
-						</div>
-						<div class="author-info text p-3 p-md-5">
-							<div class="desc">
-								<span class="subheading">Hello! I'm</span>
-								<h1 class="big-letter">Mathivanan Sekar</h1>
-								<h1 class="mb-4"><span>Mathivanan Sekar</span> I'm a Programmer, <span>I code the world :)</span></h1>
-								<div id="aboutMe">
-                                <p class="mb-4">
-                                    I'm a data engineer from Chennai, With a wealth of experience spanning over {{currentYear - startYear}} years, 
-                                    I am a seasoned data engineer proficient in Big Data, Spark, Scala, Akka Stream, 
-                                    and cloud services across GCP and AWS. Specializing in architecting scalable solutions, 
-                                    I thrive on solving complex challenges and optimizing data workflows. 
-                                    Let's collaborate to unlock the full potential of your data infrastructure.
-                                </p>
-                            </div>
-								<h3 class="signature h1">Mathivanan Sekar</h3>
-                <ul class="ftco-social mt-3">
-		              <li class="ftco-animate"><a href="https://twitter.com/iamMathivanan"><span class="icon-twitter"></span></a></li>
-		              <li class="ftco-animate"><a href="https://www.facebook.com/Mathitheboss"><span class="icon-facebook"></span></a></li>
-		              <li class="ftco-animate"><a href="https://www.linkedin.com/in/mathivanansekar"><span class="icon-linkedin"></span></a></li>
-		            </ul>
-	            </div>
-						</div>
-					</div>
+			<section class="ftco-section ftco-bread">
+				<div class="container">
+					<div class="row no-gutters slider-text justify-content-center align-items-center">
+	          <div class="col-md-8 ftco-animate">
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
+	            <h1 class="bread">Contact</h1>
+	          </div>
+	        </div>
 				</div>
 			</section>
-    </div>
-  </div>
+			<section class="ftco-section contact-section">
+	      <div class="container">
+	        <div class="row d-flex mb-5 contact-info">
+	          <div class="col-md-12 mb-4">
+	            <h2 class="h3 font-weight-bold">Contact Information</h2>
+	          </div>
+	          <div class="w-100"></div>
+	          <div class="col-md-3 d-flex">
+	          	<div class="info bg-light p-4">
+		            <p><span>Email:</span> <a href="mailto:smathivanan@live.com">smathivanan@live.com</a></p>
+		          </div>
+	          </div>
+	          <div class="col-md-3 d-flex">
+	          	<div class="info bg-light p-4">
+		            <p><span>Website</span> <a href="#">www.mathivanan.in</a></p>
+		          </div>
+	          </div>
+	        </div>
+	        <div class="row block-9">
+	          <div class="col-md-6 d-flex">
+	            <form action="#" class="bg-light p-5 contact-form">
+	              <div class="form-group">
+	                <input type="text" class="form-control" placeholder="Your Name">
+	              </div>
+	              <div class="form-group">
+	                <input type="text" class="form-control" placeholder="Your Email">
+	              </div>
+	              <div class="form-group">
+	                <input type="text" class="form-control" placeholder="Subject">
+	              </div>
+	              <div class="form-group">
+	                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+	              </div>
+	              <div class="form-group">
+	                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+	              </div>
+	            </form>
+
+	          </div>
+
+	          <div class="col-md-6 d-flex">
+	          	<div id="map" class="bg-light"></div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+  <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
@@ -116,17 +136,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    <script>
-        var startYear = 2014;
-        var currentYear = new Date().getFullYear();
-        var yearsOfExperience = currentYear - startYear;
-        document.getElementById('aboutMe').innerHTML = `<p class="mb-4">
-            I'm a data engineer from Chennai, With a wealth of experience spanning over ${yearsOfExperience} years, 
-            I am a seasoned data engineer proficient in Big Data, Spark, Scala, Akka Stream, 
-            and cloud services across GCP and AWS. Specializing in architecting scalable solutions, 
-            I thrive on solving complex challenges and optimizing data workflows. 
-            Let's collaborate to unlock the full potential of your data infrastructure.
-        </p>`;
-    </script>
+
   </body>
 </html>
